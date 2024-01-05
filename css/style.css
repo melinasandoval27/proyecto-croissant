@@ -1,0 +1,874 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(../image/fondo\ de\ madera.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 158px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header h1 {
+    font-size: 50px;
+    color: rgb(255, 252, 252);
+    font-family: 'Lora', serif;
+}
+
+
+.logo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 120px;
+}
+
+.redesSociales {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.redesSociales img {
+
+    width: 40px;
+    height: 40px;
+}
+
+/*main*/
+
+.hero {
+    background-repeat: no-repeat;
+    background-image: url(../image/imagen-principal.PNG);
+    background-size: cover;
+    height: 700px;
+    background-attachment: fixed;
+
+}
+
+.boton:hover {
+
+    background-color: black;
+    color: white;
+
+}
+
+.adquiriTuFranquisia {
+    text-align: center;
+    height: 50vh;
+}
+
+.adquiriTuFranquisia h2 {
+    font-size: 80px;
+    font-weight: 800;
+    padding-top: 200px;
+}
+
+.adquiriTuFranquisia h3 {
+    font-size: 30px;
+
+    margin-bottom: 50px;
+}
+
+.adquiriTuFranquisia a {
+    color: rgb(12, 12, 12);
+    background-color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.mensaje div {
+
+    display: flex;
+
+    height: 170px;
+
+
+}
+
+
+.tradicion {
+    background-color: gray;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.compartir {
+    background-color: rgb(211, 188, 188);
+    width: 730px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.ventajas {
+    text-align: center;
+    height: 180px;
+    margin-top: 120px;
+}
+
+.ventajas-de-franquisia h2 {
+    font-size: 55px;
+    font-weight: 300px;
+
+}
+
+.porque-elegirlo {
+    margin-top: 20px;
+}
+
+
+
+.primeras-etiquetas {
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+
+}
+
+.ventaja-competitiva {
+    border-right: 1px solid;
+    color: black;
+    padding: 20px;
+
+}
+
+.ventaja-competitiva img {
+    margin-left: 180px;
+    margin-bottom: 20px;
+
+}
+
+.ventaja-competitiva h3 {
+    margin-left: 22px;
+    text-align: center;
+}
+
+.ventaja-competitiva p {
+    text-align: center;
+}
+
+.inovacion {
+    border-right: 1px solid;
+    color: black;
+    padding: 20px;
+
+}
+
+.inovacion h3 {
+    margin-left: 100px;
+}
+
+.inovacion img {
+    margin-left: 130px;
+    margin-bottom: 20px;
+}
+
+.inovacion p {
+    text-align: center;
+}
+
+
+.propuesta-comercial h3 {
+    text-align: center;
+}
+
+
+.propuesta-comercial img {
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+
+.propuesta-comercial p {
+    text-align: center;
+}
+
+.segundas-etiquetas {
+
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid;
+    color: black;
+}
+
+.maxima-rentabilidad {
+    border-right: 1px solid;
+    color: black;
+    padding: 20px;
+
+}
+
+.maxima-rentabilidad h3 {
+    text-align: center;
+}
+
+.maxima-rentabilidad p {
+    text-align: center;
+}
+
+.maxima-rentabilidad img {
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+
+.renombre h3 {
+    text-align: center;
+}
+
+.renombre p {
+    text-align: center;
+}
+
+.renombre img {
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.valores {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+
+
+}
+
+
+
+.valor {
+    background-color: #c6a7bb;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 1s;
+
+
+}
+
+
+.valor:hover {
+
+    transform: scale(1.2);
+}
+
+.tradicion1 {
+    background-color: #ae7b9c;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 1s;
+}
+
+.tradicion1:hover {
+
+    transform: scale(1.2);
+}
+
+.respaldo {
+    background-color: #ae6895;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 1s;
+}
+
+.respaldo:hover {
+    transform: scale(1.2);
+}
+
+
+.inovacion1 {
+    background-color: #a9538b;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 1s;
+}
+
+.inovacion1:hover {
+    transform: scale(1.2);
+}
+
+.ya-casi {
+    text-align: center;
+    height: 70vh;
+    margin-top: 100px;
+    background-color: #C9C19C;
+
+}
+
+.a-un-paso h2 {
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 200px;
+}
+
+.escribinos {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.contactanos a {
+    color: black;
+    background-color: #a0a1b4;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 10px;
+    margin-top: 80px;
+    color: black;
+    background-color: #a0a1b4;
+    text-decoration: none;
+}
+
+
+
+.historia {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100vh;
+}
+
+.img {
+
+    width: auto;
+
+}
+
+.historia .img img {
+
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+
+}
+
+.historia .nuestra-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    background-color: rgb(230, 138, 104);
+}
+
+.historia .nuestra-historia h3 {
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.p {
+
+    font-size: 17px;
+    margin-bottom: 35px;
+    padding: 50px;
+
+
+}
+
+
+.franquicia {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 80vh;
+
+}
+
+.img-panaderia img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(230, 138, 104);
+}
+
+.texto h3 {
+
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+
+
+}
+
+.parrafo p {
+    font-size: 17px;
+    padding: 40px;
+
+}
+
+.eleginos {
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    background-color: #C9C19C;
+
+}
+
+
+.porque-elegirnos {
+    text-align: center;
+    height: 400px;
+    margin-top: 200px;
+    font-size: 18.4px;
+
+}
+
+.video {
+    margin-top: 150px;
+}
+
+.enlace {
+    margin-top: 80px;
+}
+
+.enlace a {
+
+    color: black;
+    background-color: #a0a1b4;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 50px;
+    padding: 10px;
+
+}
+
+.formulario {
+
+    background-image: url(../image/masa.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.54)) url(../image/masa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+
+}
+
+
+
+form {
+
+    padding: 50px 55px;
+    box-shadow: 0 0 20px black;
+    border-radius: 20px;
+    text-align: center;
+    width: 500px;
+    height: 70vh;
+
+
+}
+
+form h2 {
+    font-size: 35px;
+}
+
+.btn {
+    background-color: #bdced0;
+    width: 250px;
+    ;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+label {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 140px;
+}
+
+.footer {
+
+    background-image: url(../image/fondo\ de\ madera.jpeg);
+    color: white;
+    font-size: 18.4;
+    font-weight: 50px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 158px;
+}
+
+.logoFooter {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+
+/** media queries**/
+
+
+@media screen and (max-width:480px) {
+
+    /**header**/
+
+    header {
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    header .redesSociales a{
+        display: none;
+    }
+
+
+    h1 {
+        display: none;
+    }
+
+   
+
+    .logo {
+
+        width: 130px;
+        height: 130px;
+        margin-left: 35%;
+
+
+    }
+
+    /**main**/
+
+    .hero {
+        background-image: url(../image/facturasM.jpg);
+
+
+    }
+
+    .adquiriTuFranquisia div {
+
+        color: aliceblue;
+
+    }
+
+    .adquiriTuFranquisia h2 {
+        font-size: 60px;
+
+        padding-bottom: 80px;
+    }
+
+    .adquiriTuFranquisia h3 {
+
+        font-size: 25px;
+
+
+    }
+
+    .boton {
+
+        margin-top: 20px;
+
+    }
+
+
+
+
+    .primeras-etiquetas {
+
+        display: inline-block;
+
+
+
+    }
+
+    .ventajas-de-franquisia h2 {
+
+        font-size: 45px;
+
+    }
+
+    .ventaja-competitiva {
+
+        border-right: none;
+    }
+
+    .ventaja-competitiva p br {
+
+        display: none;
+
+
+    }
+
+    .pp {
+        margin-right: 4%;
+        text-align: end;
+    }
+
+    .inovacion {
+
+        border-right: none;
+    }
+
+    .inovacion img {
+
+        margin-left: 170px;
+    }
+
+    .inovacion h3 {
+
+        margin-left: 150px;
+
+    }
+
+    .propuesta-comercial img {
+
+        margin-left: 180px;
+    }
+
+    .segundas-etiquetas {
+
+        display: none;
+    }
+
+    .valores {
+        display: none;
+    }
+
+    .ya-casi {
+
+        align-items: center;
+
+
+    }
+
+    .a-un-paso h2 {
+
+        font-size: 40px;
+        padding-top: 80px;
+    }
+
+    .escribinos h3 {
+        font-size: 20px;
+        margin-bottom: 0;
+        padding-top: 50px;
+    }
+
+    .historia .img {
+        width: 100%;
+
+    }
+
+    .historia {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 550px 900px;
+        margin-bottom: 0;
+
+
+    }
+
+    
+
+    .nuestra-historia h3 {
+        font-size: 25px;
+
+        margin-top: 25%;
+
+    }
+
+    .p {
+        margin: 0;
+        padding: 0;
+       
+    }
+
+    .p p {
+        font-size: 15px;
+        
+        width: 80%;
+        margin-left: 45px;
+
+        
+
+
+    }
+
+    .franquicia {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 400px 600px;
+        margin-top: 0;
+
+    }
+
+    .texto h3 {
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 25px;
+        margin-top: 25%;
+        margin-left: 30%;
+
+    }
+
+    .parrafo{
+
+        text-align: center;
+        margin-left: 70px;
+    }
+
+    .parrafo p {
+        font-size: 15px;
+        padding: 0;
+
+    }
+
+   
+
+    .img-panaderia {
+        width: 100%;
+
+    }
+
+    .section2{
+
+        height: 30%;
+    }
+
+    .eleginos{
+       
+        display: inline-block;
+        
+    }
+
+    .video{
+
+    padding: 0;
+    
+    margin: 0;
+
+    margin-bottom: 15%;
+   
+
+   
+        
+    }
+
+    iframe{
+        width: 400px;
+        margin-left: 10%;
+    }
+
+    .porque-elegirnos{
+        
+        
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15%;
+       
+    }
+
+    .porque-elegirnos h2{
+        
+    }
+
+    p{
+width: 80%;
+
+    }
+
+
+    .porque-elegirnos p br{
+        display: none;
+    }
+
+    .enlace {
+
+        margin-top:5px ;
+
+    }
+
+     /* formulario */
+
+     form{
+        width: 400px;
+    }
+
+    /* footer */
+
+    .footer{
+
+        height: 230px;
+
+         display: flex;
+        justify-content: center; */
+    } 
+
+    .logoFooter{
+
+        height: 110px;
+        width: 110px;
+        margin-left: 15px;
+
+    }
+
+    .footer .ciudad{
+
+        font-size: 15px;
+
+        padding: 15px;
+
+        margin: 10px;
+        
+    }
+
+    .redesSociales a{
+
+        margin: 5px;
+    }
+
+
+}
+
