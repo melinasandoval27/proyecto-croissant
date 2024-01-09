@@ -631,9 +631,20 @@ label {
     .ventaja-competitiva {
 
         border-right: none;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .ventaja-competitiva p br {
+    .ventaja-competitiva img{
+        margin-left: 0;
+    }
+
+    
+
+    .ventaja-competitiva .pp br {
 
         display: none;
 
@@ -641,13 +652,18 @@ label {
     }
 
     .pp {
-        margin-right: 4%;
-        text-align: end;
+        /* margin-right: 4%;
+        text-align: end; */
+    /* text-align: justify; */
     }
 
     .inovacion {
 
         border-right: none;
+    }
+
+    .inovacion .pp br{
+        display: none;
     }
 
     .inovacion img {
@@ -661,9 +677,20 @@ label {
 
     }
 
+    .propuesta-comercial{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .propuesta-comercial img {
 
-        margin-left: 180px;
+        margin-left: 0;
+    }
+
+    .propuesta-comercial .pp br{
+        display: none;
     }
 
     .segundas-etiquetas {
