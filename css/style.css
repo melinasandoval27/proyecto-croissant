@@ -823,12 +823,17 @@ label {
 
     margin-right: 55%;
 
+   
+    
+
         
     }
 
-    iframe{
-        width: 400px;
-        margin-left: 10%;
+    .video iframe{
+        width: 340px;
+        
+        margin-left: 30%;
+
     }
 
     .porque-elegirnos{
